@@ -4,6 +4,11 @@
   "version": "1.0",
   "description": "Quickly toggle proxy on/off.",
   "homepage_url": "https://github.com/gotmyname2018/SimpleProxyToggle",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "91.1.0"
+    }
+  },
   "icons": {
     "48": "icon.svg",
     "96": "icon.svg"
