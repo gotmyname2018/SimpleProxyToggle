@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "SimpleProxyToggle",
+  "version": "1.0",
+  "description": "Quickly toggle proxy on/off.",
+  "homepage_url": "https://github.com/gotmyname2018/SimpleProxyToggle",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "permissions": [
+    "proxy"
+  ],
+
+  "browser_action": {
+    "default_icon": "proxy_off.svg",
+    "default_title": "No proxy"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
